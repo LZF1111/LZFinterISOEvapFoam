@@ -1,0 +1,6 @@
+
+In file included from LZFEvaporatingIsoFoam.C:122:
+alphaCourantNo.H: In function ‘int main(int, char**)’:
+alphaCourantNo.H:46:17: error: ‘class Foam::autoPtr<Foam::temperaturePhaseChangeTwoPhaseMixture>’ has no member named ‘nearInterface’
+   46 |         mixture.nearInterface()().primitiveField()
+
